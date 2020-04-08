@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment4.css" />
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="assignment4.js"></script>
+  </head>
+  <body>
+    <h1>Quiz on Important Facts</h1>
+    <div class="quiz-container">
+      <div id="quiz">
+        <section class="active">
+          <h2>Who inveneted Javascript?</h2>
+          <ul>
+            <li class="answer">Bono</li>
+            <li class="answer">Pooh Bear</li>
+            <li class="answer correct">Brendan Eich</li>
+          </ul>
+        </section>
+
+        <section class="hidden">
+          <h2>Which is better?</h2>
+          <ul>
+            <li class="answer">Tequila</li>
+            <li class="answer">Vodka</li>
+            <li class="answer correct">Beer</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+  </body>
+</html>

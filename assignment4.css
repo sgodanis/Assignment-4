@@ -1,0 +1,19 @@
+.hidden {
+display: none;
+}
+
+.answer {
+list-style-type: none;
+}
+
+.answer:before {
+    content: "?";
+    font-size: 16pt;
+    font-style: bold;
+    font-family: fantasy;
+    color: blueviolet;
+    background-color: lemonchiffon;
+    padding-right: 5px;
+    margin-right: 5px;
+
+    }
